@@ -1,0 +1,240 @@
+body{ 
+	background-color: #f4f4f4;
+	margin:auto;
+	padding: auto;
+	font-family: Arial, helvetica, sans-serif;
+	overflow: 
+}
+#header{
+
+   height: 7vh;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+
+}
+#sidebar{
+	
+	width: 250px;
+	height: 100vh;
+	position: fixed;
+	right: -250px;
+	top:25px;
+	z-index:2;
+   transition: .65s;
+
+}
+nav{ background-color:#35424a;
+	margin-top: 30px;
+	opacity: 80%;
+}
+ li{ list-style: none;
+	margin-bottom:  20px;
+
+}
+
+#sidebar a{ 
+ 	text-decoration: none;
+ 	list-style: none;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: sans-serif serif;
+}
+#menubtn{
+	width: 50px;
+	position: fixed;
+	right: 10px;
+	top: 5px;
+	z-index:2;
+	cursor: pointer;
+}
+#logo{margin-top: 0px;
+	background-color: #35424a;
+	position: fixed;
+ color: black;
+ border-bottom:solid 1px #f4f4f4;
+ width: 100%;
+}
+#logo h1{
+	text-align: center;
+	font-family:serif;
+	margin-top: 5px;
+	margin-left: auto;
+	color: coral;
+	
+
+}
+#logo span{
+	color: #fff;
+	
+
+}
+#main{ width: 100%;
+
+}
+.container{
+	overflow: hidden;
+	margin:auto;
+	
+}
+/*
+#showcase{ width: 100%;
+	background-image: url(file:///C:/Users/Ashande/Desktop/new%20project/abugu.jpg);
+	height: 30%;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+#showcase h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: chocolate;
+}
+#showcase p{
+	text-align: center;
+	font-family:arial, helvetica, sans-serif;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+.features h2{
+	margin-top: 50px;
+}
+*/
+.flex{
+	display: flex;
+	justify-content:center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top:10px;
+	
+}
+.flex img{
+	height: 200px;
+	width: 400px;
+}
+.flex h3{
+	margin-bottom: 0px;
+	font-size: 30px;
+
+}
+.flex p{
+	color: black;
+	width: 400px;
+	margin-top:2px;
+	font-size: 15px;
+	text-transform: none; 
+	margin-right: 
+	margin-left: 
+
+}
+.flex a{
+	text-decoration: none;
+	color: black;
+}
+.flex a:hover{
+	color: red;
+}
+h2 {
+	margin-top: 20px;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: underline;
+	font-style: italic;
+	font-family: monospace, serif;
+}
+ .box{ margin-top: 5px;
+ 	padding:0px 10px;
+ 	background-color:
+ 	padding: 3px;
+ }
+ .box a{
+ 	text-transform: uppercase;
+ }
+ /*
+ footer{
+ 	background-color: #8f825e;
+ }
+ */
+ .follower{
+ 	margin-top: 20px;
+ 	}
+ .follower h4{ 
+ 	margin-top: 20px;
+ 	font-size: 20px;
+ 	text-transform: uppercase;
+ 	text-align: center;
+ }
+ .links {
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-around;
+
+
+ 	
+ }
+ .links img{
+ 	height: 70px;
+ 	width: 70px;
+ }
+ .links img:hover{
+ 	color: green;
+ }
+ /*
+ .links{ margin-left: 530px;
+ 
+ }
+ */
+#search-box{
+	background-color:#35424a;
+	color: #ffffff;
+	padding: 15px
+}
+#search-box h1{
+	float: left;
+	margin-left: 50px;
+	font-size: 30px;
+}
+#search-box form{
+	float: right;
+	margin-top: 15px;
+}
+#search-box input{
+	padding: 5px;
+	height: 25px;
+	width: 250px;
+}
+button {
+	margin-right:50px;
+	height:40px;
+	background-color: #e8491d;
+}
+.content{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size:35px;
+}
+.copy{
+	text-align: center;
+	font-family: serif;
+	font-size: 20px;
+}
+.content a{
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: white;
+	color: coral;
+	opacity: 80%;
+}
+.content img{
+	height: 70px;
+	width: 70px;
+	border:solid 2px white;
+	border-radius: 50px;
+}
